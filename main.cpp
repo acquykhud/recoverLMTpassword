@@ -180,7 +180,7 @@ int main(int argc, char* argv[])
 {
 	if (argc <= 1 || (argv[1][1] != 'f' && argv[1][1] != 'd'))
 	{
-		printf("Usage: dec.exe -mode\nList of mode:\n\t-f: find password\n\t-d: delete password");
+		printf("Usage: recover.exe -mode\nList of mode:\n\t-f: find password\n\t-d: delete password");
 		return 0;
 	}
 	char mode = argv[1][1];
